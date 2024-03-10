@@ -1,6 +1,11 @@
 # Kindergarten-Data-Warehouse
 A data warehouse for a kindergarten that conducts sessions with a speech therapist.
 
+Group project with:
+ - [Tomasz Krezymon](https://github.com/komeg1)
+ - [Kacper Karski](https://github.com/JaKarski)
+
+
 Data warehouse for a kindergarten that conducts sessions with a speech threapist. Business goals of the kindergarten is to provide increase number of registered for sessions with a speecht therapist children by 1% to the previous half-year, and a 3% decrease in the number of children interested in continuing speech therapy sessions over a half-year.
 
 ## Project contains:
