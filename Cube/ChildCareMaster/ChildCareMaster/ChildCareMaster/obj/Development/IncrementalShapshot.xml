@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ChildCareMaster</Database>
+    <Server>LEGIONPF49VNGJ</Server>
+    <ConnectionString>Data Source=LEGIONPF49VNGJ;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>oXaKN6s6Vqfdtyy+ikHqzyqUhMg=20.11.2023 01:57:0019.11.2023 23:00:31</TimeStamp>
+        <ID>
+          <String>ChildCareMaster</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>szBcZ+6Gj4vEsQ7AWOOmmNOka2E=19.11.2023 23:02:2219.11.2023 23:02:21</TimeStamp>
+        <ID>
+          <String>ChildCareMaster</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pu3ebk3KP691qhuO+0cilfil0Wg=20.11.2023 01:13:5419.11.2023 23:02:37</TimeStamp>
+        <ID>
+          <String>Dziecko WYMIAR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8tzFZOoTLFErMA1ELNm4ri6ULaw=19.11.2023 23:42:2619.11.2023 23:02:37</TimeStamp>
+        <ID>
+          <String>Data WYMIAR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>mwAOi7o8hdVsWpuSWeGMyzoyR3k=19.11.2023 23:27:1819.11.2023 23:02:37</TimeStamp>
+        <ID>
+          <String>Grupa WYMIAR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cDO330SiC9zyuwcftpEXEjLLML8=20.11.2023 11:30:4119.11.2023 23:02:37</TimeStamp>
+        <ID>
+          <String>Logopeda WYMIAR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6vC90c+pu6H+0Npq0Kf1+n3/5yM=19.11.2023 23:02:3719.11.2023 23:02:37</TimeStamp>
+        <ID>
+          <String>Terapia FAKT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>XAzn3hxNbfS+504FFBWJTtiTm3o=23.11.2023 01:28:5219.11.2023 23:02:37sb2pnMoB52VwvCs4q9QnHwcL6QE=23.11.2023 01:26:3119.11.2023 23:02:37</TimeStamp>
+        <ID>
+          <String>ChildCareMaster</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>J3cWPaAaTAgDaWEG1kO4At+agMM=19.11.2023 22:36:2019.11.2023 22:36:19</TimeStamp>
+      <ID>
+        <String>ChildCareMaster</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-11-23T00:28:57.396667Z</LastDeployed>
+</DeploymentSnapshot>

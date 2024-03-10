@@ -1,0 +1,1164 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ab22ae8d-9517-4a5a-9169-580caae1a56a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ChildCareMaster</ID>
+  <Name>ChildCareMaster</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="44" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1375" scrolltop="-2172" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="95" x="25823" y="21828" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Data_WYMIAR" left="7235" top="4702" logicalid="22" controlid="1" masterid="0" hint1="0" hint2="0" width="3096" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000180c0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Data_WYMIAR" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Sukces_terapii_FAKT" left="14279" top="4891" logicalid="23" controlid="2" masterid="0" hint1="0" hint2="0" width="3122" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000320c000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Sukces_terapii_FAKT" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Logopeda_WYMIAR" left="456" top="13872" logicalid="24" controlid="3" masterid="0" hint1="0" hint2="0" width="3043" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e30b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Logopeda_WYMIAR" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Miejsce_zamieszkania_WYMIAR" left="13631" top="19844" logicalid="25" controlid="4" masterid="0" hint1="0" hint2="0" width="4419" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000043110000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Miejsce_zamieszkania_WYMIAR" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Grupa_WYMIAR" left="7283" top="17916" logicalid="26" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Grupa_WYMIAR" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Podzial_grup_FAKT" left="6336" top="11944" logicalid="27" controlid="6" masterid="0" hint1="0" hint2="0" width="4895" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00001f130000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Podzial_grup_FAKT" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Zajecia_FAKT" left="7050" top="0" logicalid="28" controlid="7" masterid="0" hint1="0" hint2="0" width="3466" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008a0d0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Zajecia_FAKT" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Opiekun_WYMIAR" left="13750" top="13872" logicalid="29" controlid="8" masterid="0" hint1="0" hint2="0" width="4180" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000054100000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Opiekun_WYMIAR" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dziecko_WYMIAR" left="13763" top="9170" logicalid="30" controlid="9" masterid="0" hint1="0" hint2="0" width="4154" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003a100000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dziecko_WYMIAR" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Terapia_FAKT" left="20" top="8323" logicalid="31" controlid="10" masterid="0" hint1="0" hint2="0" width="3916" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004c0f00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Terapia_FAKT" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8384" top="9045" logicalid="32" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Podzial_g__data___31EC6D26]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="5" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8783" y="9544" />
+              <point x="8783" y="11944" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3636" top="6724" logicalid="33" controlid="12" masterid="0" hint1="0" hint2="0" width="3899" height="3473" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Terapia_F__tygod__35BCFE0A]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="10" sourceattachpoint="18" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7235" y="7123" />
+              <point x="5586" y="7123" />
+              <point x="5586" y="9897" />
+              <point x="3936" y="9897" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8384" top="2002" logicalid="34" controlid="13" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Zajecia_F__dzien__398D8EEE]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="7" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8783" y="4702" />
+              <point x="8783" y="2302" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="15441" top="6470" logicalid="35" controlid="14" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Sukces_te__dziec__3C69FB99]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="2" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="15840" y="9170" />
+              <point x="15840" y="6770" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1578" top="11172" logicalid="36" controlid="15" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Terapia_F__logop__37A5467C]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="10" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1977" y="13872" />
+              <point x="1977" y="12672" />
+              <point x="1978" y="12672" />
+              <point x="1978" y="11472" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="15441" top="17144" logicalid="37" controlid="16" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Opiekun_W__miejs__286302EC]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="8" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="15840" y="19844" />
+              <point x="15840" y="17444" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8384" top="15216" logicalid="38" controlid="17" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Podzial_g__grupa__32E0915F]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="6" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8783" y="17916" />
+              <point x="8783" y="15516" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3636" top="10147" logicalid="39" controlid="18" masterid="0" hint1="0" hint2="0" width="3947" height="9108" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Terapia_F__grupa__36B12243]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="10" sourceattachpoint="12" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7283" y="18855" />
+              <point x="5610" y="18855" />
+              <point x="5610" y="10447" />
+              <point x="3936" y="10447" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="10931" top="9922" logicalid="40" controlid="19" masterid="0" hint1="0" hint2="0" width="3132" height="4108" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Podzial_g__dziec__30F848ED]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="6" sourceattachpoint="16" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13763" y="10321" />
+              <point x="12497" y="10321" />
+              <point x="12497" y="13730" />
+              <point x="11231" y="13730" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3636" top="851" logicalid="41" controlid="20" masterid="0" hint1="0" hint2="0" width="3714" height="8896" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Zajecia_F__terap__3A81B327]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="7" sourceattachpoint="17" destattachpoint="12" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3936" y="9347" />
+              <point x="5493" y="9347" />
+              <point x="5493" y="1151" />
+              <point x="7050" y="1151" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="15441" top="11172" logicalid="42" controlid="21" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Dziecko_W__opiek__2B3F6F97]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="9" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="15840" y="13872" />
+              <point x="15840" y="11472" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1375</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2172</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>95</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="0cfd033c-8ab7-44d0-981e-ee008150b4aa">
+      <ID>Terapia FAKT</ID>
+      <Name>Terapia FAKT</Name>
+      <DimensionID>Terapia FAKT</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="95f8a20d-388b-4063-9b3b-5b22eda1fa53">
+          <AttributeID>Terapia ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5f467189-7d28-4fea-a6fb-acc70431883b">
+          <AttributeID>Logopeda</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2a174987-cf2c-4426-a9be-e4cc2d9cea06">
+          <AttributeID>Tygodniowy Snapshot</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3029da42-347f-499f-94d2-458575037bbb">
+          <AttributeID>Grupa</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="3a13328f-69cd-43b9-b8fd-f575c9507b2f">
+      <ID>Dzienny Snapshot</ID>
+      <Name>Dzienny Snapshot</Name>
+      <DimensionID>Data WYMIAR</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9092d2e9-8a4f-4975-818a-c70bbf438cd4">
+          <AttributeID>Data ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4da18d6c-a7d6-4676-87ee-46315376b01c">
+          <AttributeID>Rok</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="504a9f67-05ea-4c08-9d98-fd0bdb4e85a7">
+          <AttributeID>Miesiac</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fe25e8d7-ccc5-417c-9ebe-554cf258f95d">
+          <AttributeID>Miesiac No</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5cd3dc66-75c4-49f5-a3ea-b50c46bee9e5">
+          <AttributeID>Dzien</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8eb9c6ec-edde-4717-806d-5524e94ca168">
+          <AttributeID>Dzien Tygodnia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cca34fdd-1783-4e72-b5a7-46316efc400d">
+          <AttributeID>Polrocze</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="19d81d15-6fd5-4709-a4b9-40e7e87d9381">
+          <AttributeID>Polrocze No</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7aea146e-2924-4852-bde5-8685a137c3bf">
+          <AttributeID>Pelna Data</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="68382949-3e12-4d5a-ac57-ef8ea4fc3ba1">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="987e4ee3-b158-4ec0-a8f7-cfd4c6ab8b8d">
+      <ID>Terapia - Tygodniowy Snapshot</ID>
+      <Name>Terapia - Tygodniowy Snapshot</Name>
+      <DimensionID>Data WYMIAR</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c480f5ec-8135-4bac-8d31-731229ff188f">
+          <AttributeID>Data ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5620232f-c444-4b3e-8de7-b2c76fdee817">
+          <AttributeID>Rok</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3a5fb7ea-4abe-4143-97a0-97d98f70beed">
+          <AttributeID>Miesiac</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="da0f30cf-df15-4846-b76f-e4bf86bc12fd">
+          <AttributeID>Miesiac No</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="76527a95-0423-4eb3-8564-67d859ad3f0d">
+          <AttributeID>Dzien</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bf48dff8-c29a-49f1-a1aa-387e5e385fa5">
+          <AttributeID>Dzien Tygodnia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="295b7e5c-1a16-45c6-9149-431815101c67">
+          <AttributeID>Polrocze</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ea34cbcc-5565-414e-b5b5-547397477819">
+          <AttributeID>Polrocze No</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="91011e0c-7ab7-431a-b90e-c90e026572e2">
+          <AttributeID>Pelna Data</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="308b7837-07be-4aa3-815c-9b259a4a222f">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="19746e35-18b3-4fc0-bd9f-863073041eb8">
+      <ID>Dziecko WYMIAR</ID>
+      <Name>Dziecko WYMIAR</Name>
+      <DimensionID>Dziecko WYMIAR</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1d22f77e-f535-49ca-9a74-1dd2e54a38ce">
+          <AttributeID>Dziecko ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1e2245c8-e02f-40fe-93e4-c02bd121c37b">
+          <AttributeID>Opiekun ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="de1980c7-6613-427c-bb9a-592a8c1ddefb">
+          <AttributeID>Miejsce Zamieszkania ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80325828-2f58-4272-b573-112630ba2f65">
+          <AttributeID>Imie Nazwisko Opiekun</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8a8ad88c-0c44-46bc-82d3-25a55277195c">
+          <AttributeID>Kraj Pochodzenia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d149c1ff-8862-4a59-bb5d-6ca19b65eb9f">
+          <AttributeID>Wyksztalcenie</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9f0b5836-ad2d-474e-8b7c-236dd7c8b702">
+          <AttributeID>Plec</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f0cec26d-3a79-485b-b48d-52000938370e">
+          <AttributeID>Kraj</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9e193b39-981f-44c1-ae04-64508d91b6dc">
+          <AttributeID>Status Miejscowosci</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="841748d0-8aee-4601-81db-a968b5a364e4">
+          <AttributeID>Miejscowosc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5f30505e-70cb-4075-b93a-5f6b5d6c4bc6">
+          <AttributeID>Imie Nazwisko Dziecko</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="bee44158-c203-4484-8b21-79514ac1c731">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="5a0daac0-09a5-45f9-8bc9-3e4dae6584b3">
+      <ID>Data WYMIAR</ID>
+      <Name>Data WYMIAR</Name>
+      <DimensionID>Data WYMIAR</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="43828546-2e83-4dc8-ab2e-06db7709d745">
+          <AttributeID>Data ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ff1c426e-09e7-4b4d-9a55-233c6e4bd5c9">
+          <AttributeID>Rok</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8e56f758-a1f9-4630-ab3b-769d5d63ca12">
+          <AttributeID>Miesiac</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d1edb707-5e78-4dad-823d-7ddd93225938">
+          <AttributeID>Miesiac No</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e4ae2a30-0176-45bd-99f8-249d181c5528">
+          <AttributeID>Dzien</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bdbb0f1f-d580-412d-9679-7a0ec14ceb48">
+          <AttributeID>Dzien Tygodnia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ae6f105e-3144-4419-8276-9a036981c0f0">
+          <AttributeID>Polrocze</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0bcd2b53-fd40-4325-9c27-17846dac975f">
+          <AttributeID>Polrocze No</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c8dd91f7-bcf8-4f40-8c09-26c5de2e870a">
+          <AttributeID>Pelna Data</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="979dcf73-181d-45d7-bf36-ab2d2c232299">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="b6defedb-a518-404f-890e-cd2b2aa05d1c">
+      <ID>Grupa WYMIAR</ID>
+      <Name>Grupa WYMIAR</Name>
+      <DimensionID>Grupa WYMIAR</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="89ecf7fb-3f94-4513-b839-17aa2e1b6682">
+          <AttributeID>Grupa ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eaaf8766-52ab-4afd-b35d-06607517c9cb">
+          <AttributeID>Nazwa Grupy</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f383e758-148c-4b55-bb83-d98b3ce9dc15">
+      <ID>Logopeda WYMIAR</ID>
+      <Name>Logopeda WYMIAR</Name>
+      <DimensionID>Logopeda WYMIAR</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4fd2fef2-e83c-4498-a957-00739908b081">
+          <AttributeID>Logopeda ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6d090350-9747-4444-a794-342cacaff0ef">
+          <AttributeID>Pesel</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8f90d410-5bea-42f6-a3f3-8f7089d79ab8">
+          <AttributeID>Imie Nazwisko</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="735bb354-2e23-4655-af2b-0b37b1c9ac6b">
+      <ID>Podzial Grup FAKT</ID>
+      <Name>Podzial Grup FAKT</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="46d3c738-55c8-428a-b0cd-794623fe8e06">
+          <ID>Wiek Dziecka</ID>
+          <Name>Wiek Dziecka</Name>
+          <Source dwd:design-time-name="f4c446b9-15ba-4e31-b3b6-25033926c3f7">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="03ba7c19-47ed-49fe-80a9-0ca854f49c4a">
+              <TableID>dbo_Podzial_grup_FAKT</TableID>
+              <ColumnID>wiek_dziecka</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="aaed8a9c-a93f-45ab-bf03-ee95a0f79377">
+          <ID>Ilosc Wad</ID>
+          <Name>Ilosc Wad</Name>
+          <Source dwd:design-time-name="1f8ce11c-ca4a-4ff6-85ab-fcd832ea112d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f5fd78be-9cc7-46a3-bc3a-1b9b9c7bef7d">
+              <TableID>dbo_Podzial_grup_FAKT</TableID>
+              <ColumnID>ilosc_wad</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="172e5920-4625-4ea0-8967-8b2a8653b13f">
+          <ID>Przewidywany Czas Leczenia</ID>
+          <Name>Przewidywany Czas Leczenia</Name>
+          <Source dwd:design-time-name="8d819e7e-1943-46ec-8917-17f9ad219bf4">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f342a0c9-1deb-4d38-adc6-4d2ff2c5c62d">
+              <TableID>dbo_Podzial_grup_FAKT</TableID>
+              <ColumnID>przewidywany_czas_leczenia</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="75772917-da14-49cb-a17f-744e343666c9">
+          <ID>Podzial Grup FAKT Count</ID>
+          <Name>Podzial Grup FAKT Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="2e19149d-e1c1-4640-be35-ac06d97af565">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="56f2e297-cc71-4fc8-8c32-01711689fee5">
+              <TableID>dbo_Podzial_grup_FAKT</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5dd2d87a-0d10-4281-8ae3-3d4b9a212743">
+          <CubeDimensionID>Dziecko WYMIAR</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0a936608-2c90-4d58-ae52-771fa9f08ef6">
+              <AttributeID>Dziecko ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="653f99be-fec6-49e7-ad92-c9f4eded2b6e">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="db9c66d8-9383-4a10-81d9-d1dc877e82bd">
+                    <TableID>dbo_Podzial_grup_FAKT</TableID>
+                    <ColumnID>dziecko</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="25fee218-ea55-4be1-b34d-f691d11106a6">
+          <CubeDimensionID>Data WYMIAR</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cdb1b221-5190-46d2-b7b5-703a0b1c4618">
+              <AttributeID>Data ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d0413464-8e7a-4b93-859d-1e2441af97fd">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d0e3e6ff-2df3-4de5-a3a8-9c2a2c9bab7d">
+                    <TableID>dbo_Podzial_grup_FAKT</TableID>
+                    <ColumnID>data_dolaczenia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4931fb47-cdf1-42cc-bbeb-6484e67261f3">
+          <CubeDimensionID>Grupa WYMIAR</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c6acdd1a-0562-422a-b829-eee71f5a7129">
+              <AttributeID>Grupa ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0a44de4d-3a2a-4145-a398-c3380a82bbbb">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5d27a011-a445-4038-9783-d2da9b781cda">
+                    <TableID>dbo_Podzial_grup_FAKT</TableID>
+                    <ColumnID>grupa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="76bc0d40-519f-4c4b-afcc-ff103ed0ef6b">
+      <ID>Zajecia FAKT</ID>
+      <Name>Zajecia FAKT</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="1e05873d-bf0f-4424-a04d-574f39a1125d">
+          <ID>Dlugosc Zajec</ID>
+          <Name>Dlugosc Zajec</Name>
+          <Source dwd:design-time-name="0079c7e8-e207-43eb-9f8a-f13151870388">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="67c50996-2ca6-4bc3-a2b4-d0b56bf7097c">
+              <TableID>dbo_Zajecia_FAKT</TableID>
+              <ColumnID>dlugosc_zajec</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0871410c-3b9e-44af-a03a-b789a842aa04">
+          <ID>Zajecia FAKT Count</ID>
+          <Name>Liczba wystapien faktu zajec</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="c9b3d61d-901f-4c71-9f72-1b50e16d34c6">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="2d2b9780-0a6e-478e-9800-c2e0787025f3">
+              <TableID>dbo_Zajecia_FAKT</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2673e617-25f2-4f2c-8c3b-9deff0758ffa">
+          <ID>Maximum Dlugosc Zajec</ID>
+          <Name>Maksymalny czas zajec</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="b13bc739-a433-4812-8370-58dcfa327b86">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2d47b45f-6f69-4362-98da-5f457468cb98">
+              <TableID>dbo_Zajecia_FAKT</TableID>
+              <ColumnID>dlugosc_zajec</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c0a59e49-cfa1-45fc-adef-df329ba59f1d">
+          <CubeDimensionID>Terapia FAKT</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="22c3651e-50c3-4b4c-9e47-603e4a961eec">
+              <AttributeID>Terapia ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="79a47e51-9232-4dc4-9821-150cb28f62c6">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1ab748b8-02fe-484a-8bd9-84892ebc2f90">
+                    <TableID>dbo_Zajecia_FAKT</TableID>
+                    <ColumnID>terapia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="158bd3e4-5bfc-4620-8ba4-b43f07a5187e">
+          <CubeDimensionID>Dzienny Snapshot</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9b755242-0a0d-44a6-ab75-2d6efa4c2d8f">
+              <AttributeID>Data ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f8ec9d44-7f86-412a-b27f-07ec34ca6721">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e141ac8f-b781-426f-8d52-f6cb3e403caa">
+                    <TableID>dbo_Zajecia_FAKT</TableID>
+                    <ColumnID>dzienny_snapshot</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="e949ae19-23e8-4818-8f82-1222e1005d51">
+          <CubeDimensionID>Logopeda WYMIAR</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="97e40ac3-a2b0-49f8-bdce-548720e9275c">
+              <AttributeID>Logopeda ID</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Terapia FAKT</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Logopeda</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="eea8c088-d6d3-49db-ab68-6bf5a77f6e56">
+          <CubeDimensionID>Grupa WYMIAR</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3a8f8561-9929-46c9-82b1-6979ac8c94f0">
+              <AttributeID>Grupa ID</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Terapia FAKT</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Grupa</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="0bf68b45-c994-4547-9e3e-39e350bbd616">
+      <ID>Sukces Terapii FAKT</ID>
+      <Name>Sukces Terapii FAKT</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="1fe34269-250d-4f93-9be7-6881b054acf8">
+          <ID>Sukces Terapii FAKT Count</ID>
+          <Name>Liczba faktow sukcesow terapii</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="1db5f32f-a91a-4dd9-9625-342edd1ab8f1">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="70e493c9-73ed-4c54-ab72-934236ab7d56">
+              <TableID>dbo_Sukces_terapii_FAKT</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0201063e-fdcf-438b-9520-d091c7bc58d0">
+          <ID>Wiek Opiekuna</ID>
+          <Name>Wiek opiekuna</Name>
+          <Source dwd:design-time-name="386d373a-1945-47f8-a608-9c78a987885e">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bef1da49-d994-4e1e-8b09-fc8a6512896d">
+              <TableID>dbo_Sukces_terapii_FAKT</TableID>
+              <ColumnID>wiek_opiekuna</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e79993da-9d6e-4711-b919-a93157172394">
+          <ID>Maximum Wiek Opiekuna</ID>
+          <Name>Maksymalny wiek opiekuna dziecka ktore odnioslo sukces</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="32d7b872-26c1-4593-bbf9-4224b7e505f8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="18a758b7-989c-4d87-ab23-243a2433a811">
+              <TableID>dbo_Sukces_terapii_FAKT</TableID>
+              <ColumnID>wiek_opiekuna</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9e67745e-24ea-487e-a64e-a1d639f0e341">
+          <CubeDimensionID>Dziecko WYMIAR</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b3765e66-8097-4027-a5fa-c1c6877948dc">
+              <AttributeID>Dziecko ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="05a0077b-da10-4e3a-beab-01a7513c8cc9">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8f018999-b822-4b47-ba7d-d84e9c160ba6">
+                    <TableID>dbo_Sukces_terapii_FAKT</TableID>
+                    <ColumnID>dziecko</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="660ca0f9-15b6-4290-8442-aed96fa3079e">
+      <ID>Terapia FAKT</ID>
+      <Name>Terapia FAKT</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="14393849-e148-4ca1-b728-a2447e4fbf20">
+          <ID>Maximum Czestotliwosc</ID>
+          <Name>Maksymalna czestotliwosc terapii</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="42415685-5770-4ded-9c98-83fc4bd65a1f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="89a35329-7891-4077-8208-954c5517c235">
+              <TableID>dbo_Terapia_FAKT</TableID>
+              <ColumnID>czestotliwosc</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d375ed5d-d800-443a-bbe1-758c1abc9371">
+          <ID>Terapia FAKT Count</ID>
+          <Name>Ilosc terapii</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="d435a1d1-c983-4096-a8a7-a2d18ec6da34">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="69726b5b-de0b-4736-8162-6b28726a86f5">
+              <TableID>dbo_Terapia_FAKT</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="da21d62b-febb-4c12-ab71-dbd3753309e2">
+          <ID>Czestotliwosc</ID>
+          <Name>Czestotliwosc</Name>
+          <Source dwd:design-time-name="9a992949-c29a-4835-84fa-1fa4acfd57cd">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a41327b4-69e5-4703-a53b-65e5bfa0fb04">
+              <TableID>dbo_Terapia_FAKT</TableID>
+              <ColumnID>czestotliwosc</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="31383ec9-5a76-40be-b1ea-4c647d551543">
+          <CubeDimensionID>Terapia FAKT</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b3c90e54-b032-496f-a9fe-62823b26b2f2">
+              <AttributeID>Terapia ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="494bccc9-8f20-4515-b296-203b59fd3c1c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6f4597b3-3ab7-406e-9904-d8324c678a04">
+                    <TableID>dbo_Terapia_FAKT</TableID>
+                    <ColumnID>terapia_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="578d6000-e918-4a21-ac67-a29d8b839bb6">
+          <CubeDimensionID>Grupa WYMIAR</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4d8b0ea4-3c0d-4496-96c8-519ab1ced2db">
+              <AttributeID>Grupa ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bbf827f9-5c47-45a7-93a7-8b7ac95ee9ee">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c09865a3-ab6c-40b5-8b57-fb797e45d610">
+                    <TableID>dbo_Terapia_FAKT</TableID>
+                    <ColumnID>grupa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bd06f9b1-72a2-4f74-989d-8ca1ae8fa64f">
+          <CubeDimensionID>Logopeda WYMIAR</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4fba8387-bf5d-4e7b-9cc8-68594bafb0e8">
+              <AttributeID>Logopeda ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="27d57658-dc37-42fc-9725-aa9d875fc473">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c8715014-2d68-4ea0-a61c-56baec9efb13">
+                    <TableID>dbo_Terapia_FAKT</TableID>
+                    <ColumnID>logopeda</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="24ac167c-fa1e-499f-be3e-27a07e0589e6">
+          <CubeDimensionID>Terapia - Tygodniowy Snapshot</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a08f7e22-2692-4b41-a6d4-6a964eab56b2">
+              <AttributeID>Data ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="eb12625b-870c-4532-8246-58c505370397">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ffcb49b6-32a9-465d-9d22-0d55c219e385">
+                    <TableID>dbo_Terapia_FAKT</TableID>
+                    <ColumnID>tygodniowy_snapshot</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="fef0ec1e-143d-4c78-bd2d-b67e1be62dfc">
+      <ID>Terapia FAKT 1</ID>
+      <Name>Terapia FAKT 1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="513a8bc9-a5bf-455c-b226-4370681a1761">
+          <ID>Logopeda Distinct Count</ID>
+          <Name>Ilosc roznych logopedow prowadzacych terapie</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="4f88c1ee-95be-4584-b9d3-04b5030d6f8b">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cdac4f4a-e8af-47c6-9405-7bd05a624461">
+              <TableID>dbo_Terapia_FAKT</TableID>
+              <ColumnID>logopeda</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="0cb8b251-41bd-434a-8045-dc09065909ef">
+          <CubeDimensionID>Terapia FAKT</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1f149dd1-a458-40b5-8682-37aa73a83a8f">
+              <AttributeID>Terapia ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="db42bf60-8b0b-4d4c-81d2-7d53a1579652">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9129fa25-48d4-4f0e-9faf-1b9307758606">
+                    <TableID>dbo_Terapia_FAKT</TableID>
+                    <ColumnID>terapia_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bf74d3a4-7c81-485e-96ec-b7ccae14f971">
+          <CubeDimensionID>Grupa WYMIAR</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2040af07-1eab-49c5-81c5-3770800af689">
+              <AttributeID>Grupa ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fc321c5d-a972-4c2e-a3a7-f871fbbea3fe">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="54a712f0-7ba3-4d88-9769-af57e8904785">
+                    <TableID>dbo_Terapia_FAKT</TableID>
+                    <ColumnID>grupa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="eae279c1-8950-42e2-830f-c66534d837d5">
+          <CubeDimensionID>Logopeda WYMIAR</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fa14506a-77e6-4615-bd9d-85580925b5f8">
+              <AttributeID>Logopeda ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="19bb3177-08b9-4528-bb79-6e7855f27852">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6bed78bd-92f1-4e04-b527-80b9efd5200e">
+                    <TableID>dbo_Terapia_FAKT</TableID>
+                    <ColumnID>logopeda</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3054b2d8-d36b-4082-b33e-dc3f24378c09">
+          <CubeDimensionID>Terapia - Tygodniowy Snapshot</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5f22cfd3-3f4f-4380-9304-e2ada46bbc5e">
+              <AttributeID>Data ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="559f7bb2-ea44-4cc9-87ab-263740c20141">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="94c51b0e-dbf8-429b-99bd-3f534169b8af">
+                    <TableID>dbo_Terapia_FAKT</TableID>
+                    <ColumnID>tygodniowy_snapshot</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="97c81898-4375-4c5c-a8a2-79486720a610">
+    <DataSourceViewID>ChildCareMaster</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="43ae9630-631c-41a1-9061-36ac98fd120e">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Srednia ilosc wad u dziecka]
+ AS [Measures].[Ilosc wad]/[Measures].[Podzial Grup FAKT Count], 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Sredni przewidywany czas leczenia dziecka]
+ AS [Measures].[Przewidywany Czas Leczenia]/[Measures].[Podzial Grup FAKT Count], 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Sredni wiek dziecka]
+ AS [Measures].[Wiek Dziecka]/[Measures].[Podzial Grup FAKT Count], 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Srednia czestotliwosc terapii]
+ AS [Measures].[Czestotliwosc]/[Measures].[Ilosc terapii], 
+VISIBLE = 1  ;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Srednia ilosc zajec przypadajaca na jednego logopede]
+ AS [Measures].[Ilosc terapii]/INT([Measures].[Ilosc roznych logopedow prowadzacych terapie]), 
+FORMAT_STRING = "# ##0,00;-# ##0,00", 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Sredni czas zajec]
+ AS [Measures].[Dlugosc Zajec]/[Measures].[Liczba wystapien faktu zajec], 
+VISIBLE = 1  ;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Sredni wiek opiekuna dziecka, które odniosło sukces w terapii]
+ AS [Measures].[Wiek opiekuna]/[Measures].[Liczba faktow sukcesow terapii], 
+FORMAT_STRING = "# ##0,00;-# ##0,00", 
+VISIBLE = 1; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

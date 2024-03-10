@@ -1,0 +1,331 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c592cf5b-1842-4928-83e3-083c13eb8920" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ChildCareMaster</ID>
+  <Name>ChildCareMaster</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>ChildCareMaster</DataSourceID>
+  <Schema>
+    <xs:schema id="ChildCareMaster" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="ChildCareMaster" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="a2426cef-0969-4638-b7d0-2e54675d8413">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Data_WYMIAR" msprop:DbTableName="Data_WYMIAR" msprop:FriendlyName="Data_WYMIAR" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="2ce673cf-f3b4-4d82-b12e-9316de6f0581">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="data_ID" msprop:FriendlyName="data_ID" msprop:DbColumnName="data_ID" msprop:design-time-name="33856091-4df0-4993-b710-15dfb4aa96e4" type="xs:int" />
+                  <xs:element name="rok" msprop:FriendlyName="rok" msprop:DbColumnName="rok" msprop:design-time-name="f41c7f96-f1f5-4ab0-a227-463ee5649fd1" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="miesiac" msprop:FriendlyName="miesiac" msprop:DbColumnName="miesiac" msprop:design-time-name="d1921c14-4ecb-4afa-bde6-b1bb73a1a33b" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="miesiac_no" msprop:FriendlyName="miesiac_no" msprop:DbColumnName="miesiac_no" msprop:design-time-name="09d283af-27a4-4a19-8a33-e296c5ef31f2" type="xs:int" minOccurs="0" />
+                  <xs:element name="dzien" msprop:FriendlyName="dzien" msprop:DbColumnName="dzien" msprop:design-time-name="3918a0b1-7012-4840-8dc7-2876c56d0b52" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="dzien_tygodnia" msprop:FriendlyName="dzien_tygodnia" msprop:DbColumnName="dzien_tygodnia" msprop:design-time-name="25e253d4-a036-4ebe-8309-e7c6958cacf7" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="polrocze" msprop:FriendlyName="polrocze" msprop:DbColumnName="polrocze" msprop:design-time-name="96d872c5-9a83-4176-9da2-bf82412f54ab" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="polrocze_no" msprop:FriendlyName="polrocze_no" msprop:DbColumnName="polrocze_no" msprop:design-time-name="1effdc9e-ea1d-4ae4-862f-96fa7d3254fa" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="pelna_data" msprop:FriendlyName="pelna_data" msprop:DbColumnName="pelna_data" msprop:design-time-name="10207b52-e272-4df3-994b-c24e17e60faf" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dziecko_WYMIAR" msprop:DbTableName="Dziecko_WYMIAR" msprop:FriendlyName="Dziecko_WYMIAR" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="18deb696-102f-4748-b5f5-51c0f9da3b62">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="dziecko_ID" msprop:FriendlyName="dziecko_ID" msprop:DbColumnName="dziecko_ID" msprop:design-time-name="58af5a6d-8363-4112-9023-4605876cf0b8" type="xs:int" />
+                  <xs:element name="imie_nazwisko_dziecko" msprop:FriendlyName="imie_nazwisko_dziecko" msprop:DbColumnName="imie_nazwisko_dziecko" msprop:design-time-name="46c7b1ba-d500-48b2-b762-38eb115b1078" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="opiekun" msprop:FriendlyName="opiekun" msprop:DbColumnName="opiekun" msprop:design-time-name="0d60186a-746e-4471-a869-80d330f4eb11" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Grupa_WYMIAR" msprop:DbTableName="Grupa_WYMIAR" msprop:FriendlyName="Grupa_WYMIAR" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="d854d63e-f84b-4092-bcaa-39e5dacb2c3e">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="grupa_ID" msprop:FriendlyName="grupa_ID" msprop:DbColumnName="grupa_ID" msprop:design-time-name="7a8c96a7-e2c3-4013-84f7-09af15e030ba" type="xs:int" />
+                  <xs:element name="nazwa_grupy" msprop:FriendlyName="nazwa_grupy" msprop:DbColumnName="nazwa_grupy" msprop:design-time-name="77b3213f-dca8-46db-82a3-7229d74f762d" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Logopeda_WYMIAR" msprop:DbTableName="Logopeda_WYMIAR" msprop:FriendlyName="Logopeda_WYMIAR" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="cc04a3bc-dc25-49a6-9d50-9550db1f2b9b">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Logopeda_ID" msprop:FriendlyName="Logopeda_ID" msprop:DbColumnName="Logopeda_ID" msprop:design-time-name="443f3f86-b600-46af-84b7-50fafad6877e" type="xs:int" />
+                  <xs:element name="pesel" msprop:FriendlyName="pesel" msprop:DbColumnName="pesel" msprop:design-time-name="62a15747-4488-4b6f-8c42-8593b1bcfa93" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Imie_nazwisko" msprop:FriendlyName="Imie_nazwisko" msprop:DbColumnName="Imie_nazwisko" msprop:design-time-name="56fbbff3-8f7f-4875-815d-8d8fe02f27c8" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Miejsce_zamieszkania_WYMIAR" msprop:DbTableName="Miejsce_zamieszkania_WYMIAR" msprop:FriendlyName="Miejsce_zamieszkania_WYMIAR" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="55753ac4-98f2-4bd0-abaa-885a8beb60f4">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="miejsce_zamieszkania_ID" msprop:FriendlyName="miejsce_zamieszkania_ID" msprop:DbColumnName="miejsce_zamieszkania_ID" msprop:design-time-name="b3d05596-6562-4040-b6d9-d5fdd83ebd0e" type="xs:int" />
+                  <xs:element name="kraj" msprop:FriendlyName="kraj" msprop:DbColumnName="kraj" msprop:design-time-name="30b40aaa-5be6-4eb3-9ebb-51e9fb32faf3" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="status_miejscowosci" msprop:FriendlyName="status_miejscowosci" msprop:DbColumnName="status_miejscowosci" msprop:design-time-name="f87af6ab-a0bd-4761-b985-7a2aeb8cf867" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="miejscowosc" msprop:FriendlyName="miejscowosc" msprop:DbColumnName="miejscowosc" msprop:design-time-name="68504569-6d27-4e5c-ace8-ed22bb57e81c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Opiekun_WYMIAR" msprop:DbTableName="Opiekun_WYMIAR" msprop:FriendlyName="Opiekun_WYMIAR" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="6288a324-2f31-437e-acc5-c2c43e950eb6">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="opiekun_ID" msprop:FriendlyName="opiekun_ID" msprop:DbColumnName="opiekun_ID" msprop:design-time-name="8cb86560-0c69-4215-86d8-824b52151e3d" type="xs:int" />
+                  <xs:element name="imie_nazwisko_opiekun" msprop:FriendlyName="imie_nazwisko_opiekun" msprop:DbColumnName="imie_nazwisko_opiekun" msprop:design-time-name="9c755e21-ec6a-49e5-b4ab-9e13730fe615" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="kraj_pochodzenia" msprop:FriendlyName="kraj_pochodzenia" msprop:DbColumnName="kraj_pochodzenia" msprop:design-time-name="e403c158-26f3-4cff-b38e-e1bdf6e44691" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="wyksztalcenie" msprop:FriendlyName="wyksztalcenie" msprop:DbColumnName="wyksztalcenie" msprop:design-time-name="626a859d-75d5-4092-861d-cd79437e1761" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="plec" msprop:FriendlyName="plec" msprop:DbColumnName="plec" msprop:design-time-name="72964b98-4eb2-4e41-b06c-1dc6e863d1f8" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="miejsce_zamieszkania" msprop:FriendlyName="miejsce_zamieszkania" msprop:DbColumnName="miejsce_zamieszkania" msprop:design-time-name="a1ac6d9f-3727-4a3e-bfe0-5c416150cf71" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Podzial_grup_FAKT" msprop:DbTableName="Podzial_grup_FAKT" msprop:FriendlyName="Podzial_grup_FAKT" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="282f9b9c-5f30-4c23-868f-7db558d9e8e0">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="dziecko" msprop:FriendlyName="dziecko" msprop:DbColumnName="dziecko" msprop:design-time-name="9d8060f2-7406-4d97-a6e3-40f13e01bebb" type="xs:int" minOccurs="0" />
+                  <xs:element name="data_dolaczenia" msprop:FriendlyName="data_dolaczenia" msprop:DbColumnName="data_dolaczenia" msprop:design-time-name="f287c9b6-cff6-46f9-b4da-e7e582170f65" type="xs:int" minOccurs="0" />
+                  <xs:element name="grupa" msprop:FriendlyName="grupa" msprop:DbColumnName="grupa" msprop:design-time-name="44d9923b-3355-49f7-ac08-4af122b702e3" type="xs:int" minOccurs="0" />
+                  <xs:element name="wiek_dziecka" msprop:FriendlyName="wiek_dziecka" msprop:DbColumnName="wiek_dziecka" msprop:design-time-name="7959573d-468a-4f36-9a0c-28c821e09fbb" type="xs:int" minOccurs="0" />
+                  <xs:element name="ilosc_wad" msprop:FriendlyName="ilosc_wad" msprop:DbColumnName="ilosc_wad" msprop:design-time-name="194acdad-cd19-4fe4-b477-9244acd26350" type="xs:int" minOccurs="0" />
+                  <xs:element name="przewidywany_czas_leczenia" msprop:FriendlyName="przewidywany_czas_leczenia" msprop:DbColumnName="przewidywany_czas_leczenia" msprop:design-time-name="6a674931-4403-44ba-9062-4e36a0ad3814" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Sukces_terapii_FAKT" msprop:DbTableName="Sukces_terapii_FAKT" msprop:FriendlyName="Sukces_terapii_FAKT" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="daade442-32a2-4500-ab69-0f493f311566">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="dziecko" msprop:FriendlyName="dziecko" msprop:DbColumnName="dziecko" msprop:design-time-name="05df2d32-c884-403a-bab3-069d51bbddc2" type="xs:int" minOccurs="0" />
+                  <xs:element name="wiek_opiekuna" msprop:FriendlyName="wiek_opiekuna" msprop:DbColumnName="wiek_opiekuna" msprop:design-time-name="fdc458d2-6882-4395-a387-0157477b201b" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Terapia_FAKT" msprop:DbTableName="Terapia_FAKT" msprop:FriendlyName="Terapia_FAKT" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="98220f08-b020-4ca4-baf0-f9795faf8f1c">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="terapia_ID" msprop:FriendlyName="terapia_ID" msprop:DbColumnName="terapia_ID" msprop:design-time-name="bc233d62-781e-412f-a931-f5ddb58161d8" type="xs:int" />
+                  <xs:element name="tygodniowy_snapshot" msprop:FriendlyName="tygodniowy_snapshot" msprop:DbColumnName="tygodniowy_snapshot" msprop:design-time-name="e75baf0b-894d-48d6-a145-70a11a3dd490" type="xs:int" minOccurs="0" />
+                  <xs:element name="grupa" msprop:FriendlyName="grupa" msprop:DbColumnName="grupa" msprop:design-time-name="ffb40219-bb08-4049-a809-7666a1efc991" type="xs:int" minOccurs="0" />
+                  <xs:element name="logopeda" msprop:FriendlyName="logopeda" msprop:DbColumnName="logopeda" msprop:design-time-name="97a6aaaa-ca02-422f-8cde-1e8ce1f8a298" type="xs:int" minOccurs="0" />
+                  <xs:element name="czestotliwosc" msprop:FriendlyName="czestotliwosc" msprop:DbColumnName="czestotliwosc" msprop:design-time-name="9c540cbf-1149-4c98-a850-8eae1073488b" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Zajecia_FAKT" msprop:DbTableName="Zajecia_FAKT" msprop:FriendlyName="Zajecia_FAKT" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="e2cbe057-2856-470d-9950-4f8631a74946">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="dzienny_snapshot" msprop:FriendlyName="dzienny_snapshot" msprop:DbColumnName="dzienny_snapshot" msprop:design-time-name="fb2b72cd-eb7d-4912-9bf6-db45bc64219b" type="xs:int" minOccurs="0" />
+                  <xs:element name="terapia" msprop:FriendlyName="terapia" msprop:DbColumnName="terapia" msprop:design-time-name="9a0f8006-4823-4569-8b75-ba06d0410630" type="xs:int" minOccurs="0" />
+                  <xs:element name="dlugosc_zajec" msprop:FriendlyName="dlugosc_zajec" msprop:DbColumnName="dlugosc_zajec" msprop:design-time-name="cce8db39-4685-4254-839e-6fba3ea3e0f9" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Data_WYMIAR" />
+          <xs:field xpath="data_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_Dziecko_WYMIAR_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dziecko_WYMIAR" />
+          <xs:field xpath="dziecko_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_Grupa_WYMIAR_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Grupa_WYMIAR" />
+          <xs:field xpath="grupa_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_Logopeda_WYMIAR_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Logopeda_WYMIAR" />
+          <xs:field xpath="Logopeda_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_Miejsce_zamieszkania_WYMIAR_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Miejsce_zamieszkania_WYMIAR" />
+          <xs:field xpath="miejsce_zamieszkania_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_Opiekun_WYMIAR_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Opiekun_WYMIAR" />
+          <xs:field xpath="opiekun_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_Terapia_FAKT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Terapia_FAKT" />
+          <xs:field xpath="terapia_ID" />
+        </xs:unique>
+        <xs:keyref name="FK__Zajecia_F__dzien__398D8EEE" refer="Constraint1">
+          <xs:selector xpath=".//dbo_Zajecia_FAKT" />
+          <xs:field xpath="dzienny_snapshot" />
+        </xs:keyref>
+        <xs:keyref name="FK__Zajecia_F__terap__3A81B327" refer="dbo_Terapia_FAKT_Constraint1">
+          <xs:selector xpath=".//dbo_Zajecia_FAKT" />
+          <xs:field xpath="terapia" />
+        </xs:keyref>
+        <xs:keyref name="FK__Terapia_F__grupa__36B12243" refer="dbo_Grupa_WYMIAR_Constraint1">
+          <xs:selector xpath=".//dbo_Terapia_FAKT" />
+          <xs:field xpath="grupa" />
+        </xs:keyref>
+        <xs:keyref name="FK__Terapia_F__tygod__35BCFE0A" refer="Constraint1">
+          <xs:selector xpath=".//dbo_Terapia_FAKT" />
+          <xs:field xpath="tygodniowy_snapshot" />
+        </xs:keyref>
+        <xs:keyref name="FK__Terapia_F__logop__37A5467C" refer="dbo_Logopeda_WYMIAR_Constraint1">
+          <xs:selector xpath=".//dbo_Terapia_FAKT" />
+          <xs:field xpath="logopeda" />
+        </xs:keyref>
+        <xs:keyref name="FK__Sukces_te__dziec__3C69FB99" refer="dbo_Dziecko_WYMIAR_Constraint1">
+          <xs:selector xpath=".//dbo_Sukces_terapii_FAKT" />
+          <xs:field xpath="dziecko" />
+        </xs:keyref>
+        <xs:keyref name="FK__Podzial_g__grupa__32E0915F" refer="dbo_Grupa_WYMIAR_Constraint1">
+          <xs:selector xpath=".//dbo_Podzial_grup_FAKT" />
+          <xs:field xpath="grupa" />
+        </xs:keyref>
+        <xs:keyref name="FK__Podzial_g__data___31EC6D26" refer="Constraint1">
+          <xs:selector xpath=".//dbo_Podzial_grup_FAKT" />
+          <xs:field xpath="data_dolaczenia" />
+        </xs:keyref>
+        <xs:keyref name="FK__Podzial_g__dziec__30F848ED" refer="dbo_Dziecko_WYMIAR_Constraint1">
+          <xs:selector xpath=".//dbo_Podzial_grup_FAKT" />
+          <xs:field xpath="dziecko" />
+        </xs:keyref>
+        <xs:keyref name="FK__Opiekun_W__miejs__286302EC" refer="dbo_Miejsce_zamieszkania_WYMIAR_Constraint1">
+          <xs:selector xpath=".//dbo_Opiekun_WYMIAR" />
+          <xs:field xpath="miejsce_zamieszkania" />
+        </xs:keyref>
+        <xs:keyref name="FK__Dziecko_W__opiek__2B3F6F97" refer="dbo_Opiekun_WYMIAR_Constraint1">
+          <xs:selector xpath=".//dbo_Dziecko_WYMIAR" />
+          <xs:field xpath="opiekun" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <ChildCareMaster xmlns="" />
+  </Schema>
+</DataSourceView>

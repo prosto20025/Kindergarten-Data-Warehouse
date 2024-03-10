@@ -1,0 +1,105 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7b038f95-9d28-4c94-9a0f-171e036b753c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ChildCareMaster</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Podzial Grup FAKT</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="29e0eb3a-b287-4687-8b72-eafb98c984ba">
+          <ID>Podzial Grup FAKT</ID>
+          <Name>Podzial Grup FAKT</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="53383811-f0af-4feb-adcd-2dbb3c371555">
+            <DataSourceViewID>ChildCareMaster</DataSourceViewID>
+            <TableID>dbo_Podzial_grup_FAKT</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Zajecia FAKT</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ce24b514-7951-4a62-8eef-6804fa96c3ed">
+          <ID>Zajecia FAKT</ID>
+          <Name>Zajecia FAKT</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7141abc5-cd2d-4dcb-a667-e9dcba3f17f9">
+            <DataSourceViewID>ChildCareMaster</DataSourceViewID>
+            <TableID>dbo_Zajecia_FAKT</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sukces Terapii FAKT</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2d2e2986-4817-4793-99d1-f4d14305bbee">
+          <ID>Sukces Terapii FAKT</ID>
+          <Name>Sukces Terapii FAKT</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="337e1c8b-c6bf-499f-8f72-c8d3a6a7d839">
+            <DataSourceViewID>ChildCareMaster</DataSourceViewID>
+            <TableID>dbo_Sukces_terapii_FAKT</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Terapia FAKT</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="eac3808b-4984-4433-803c-4d13f5a49147">
+          <ID>Terapia FAKT</ID>
+          <Name>Terapia FAKT</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e44f667d-db6c-4dd4-b2e4-2f50076b2312">
+            <DataSourceViewID>ChildCareMaster</DataSourceViewID>
+            <TableID>dbo_Terapia_FAKT</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Terapia FAKT 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="196bc15e-563c-41b5-a01a-bf577cac26b6">
+          <ID>Terapia FAKT</ID>
+          <Name>Terapia FAKT</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a25b97b9-2a08-4c03-b9f3-41b256f79b6c">
+            <DataSourceViewID>ChildCareMaster</DataSourceViewID>
+            <TableID>dbo_Terapia_FAKT</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
