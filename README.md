@@ -4,14 +4,14 @@ A data warehouse for a kindergarten that conducts sessions with a speech therapi
 Data warehouse for a kindergarten that conducts sessions with a speech threapist. Business goals of the kindergarten is to provide increase number of registered for sessions with a speecht therapist children by 1% to the previous half-year, and a 3% decrease in the number of children interested in continuing speech therapy sessions over a half-year.
 
 ## Project contains:
-[Data Warehouse]() and [Source Database]() design and implementation
-[MDX queries]()
-[KPI queries]()
-[BI Dashboards]() to represent the data.
-[ETL process]() using Visual Studio tools
-[Data generators]() in Python
-[Visual Studio project]() Cube with hierarchies
-[Project Documentation]() and DW [optimization report]()
+ - [Data Warehouse](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/Generator) and [Source Database](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/RelationalDatabase) design and implementation
+ - [MDX queries](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/MDX%20Queries)
+ - [KPI queries](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/MDX%20Queries)
+ - [BI Dashboards](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/PowerBI/BI%20Dashboard) to represent the data.
+ - [ETL process](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/ETL/Populating%20ChildCareMaster/Populating%20ChildCareMaster) using Visual Studio tools
+ - [Data generators]([https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/Generator](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/Generator/Data_Warehouse)) in Python
+ - [Visual Studio project](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/Cube/ChildCareMaster/ChildCareMaster) Cube with hierarchies
+ - [Project Documentation](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/Project%20Report) and DW [optimization report](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/Project%20Report)
 
 ## Screenshots
 
@@ -23,7 +23,7 @@ Data Warehouse consists of four fact tables, namely Terapia_FAKT, Sukces_terapii
 ![Screenshot 2](/screens/DatabaseScreen.png)
 
 ## PowerBI dashboards
-![Screenshot 3](/screens/firstDashboard)
-![Screenshot 4](/screens/secondDashboard)
-![Screenshot 5](/screens/thirdDashboard)
-![Screenshot 6](/screens/fourthDashboard)
+![Screenshot 3](/screens/firstDashboard.png)
+![Screenshot 4](/screens/secondDashboard.png)
+![Screenshot 5](/screens/thirdDashboard.png)
+![Screenshot 6](/screens/fourthDashboard.png)
