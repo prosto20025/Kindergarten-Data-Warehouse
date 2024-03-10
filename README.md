@@ -9,7 +9,7 @@ Data warehouse for a kindergarten that conducts sessions with a speech threapist
  - [KPI queries](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/MDX%20Queries)
  - [BI Dashboards](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/PowerBI/BI%20Dashboard) to represent the data.
  - [ETL process](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/ETL/Populating%20ChildCareMaster/Populating%20ChildCareMaster) using Visual Studio tools
- - [Data generators]([https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/Generator](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/Generator/Data_Warehouse) in Python
+ - [Data generators](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/Generator/Data_Warehouse) in Python
  - [Visual Studio project](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/Cube/ChildCareMaster/ChildCareMaster) Cube with hierarchies
  - [Project Documentation](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/Project%20Report) and DW [optimization report](https://github.com/prosto20025/Kindergarten-Data-Warehouse/tree/main/Project%20Report)
 
